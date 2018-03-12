@@ -1,0 +1,54 @@
+#items {
+	top: 36px;
+	height: calc(100% - 36px);
+	padding-left: 9px;
+	padding-right: 9px;
+}
+
+.mui-scroll {
+	width: calc(100% - 9px - 9px);
+}
+
+.itemLeft,.itemRight {
+	width: 160px;
+	height: 164px;
+	margin-top: 19px;
+	box-shadow: 0 0 5px #555555;
+	padding: 11px 10px;	
+}
+
+.itemLeft img,.itemRight img {
+	width: 137px;
+	height: 49px;
+} 
+
+.place {
+	font-size: 13px;
+} 
+
+.title {
+	font-size: 12px;
+	color: #6D6D72;	
+} 
+
+.time {
+	font-size: 11px;
+	color: firebrick;
+} 
+
+.itemLeft {	
+	float: left;
+}
+
+.itemRight {	
+	float: right;
+}
+
+.itemText {
+	margin-top: 49px;
+}
+
+.itemText span {
+	font-size: 14px;
+	color: red;
+}

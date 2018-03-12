@@ -1,0 +1,72 @@
+{
+	"index.html": {
+		"resources": [
+			"js/mui.min.js",
+			"css/mui.min.css",
+			"fonts/mui.ttf",
+			"choice.html",
+			"forum.html"
+		],
+		"refer": [
+			"shopping.html",
+			"choice.html",
+			"I.html",
+			"share.html",
+			"design.html",
+			"partTime.html",
+			"forum.html",
+			"fullTime.html",
+			"preach.html"
+		]
+	},
+	"choice.html": {
+		"resources": [
+			"images/house2.jpg",
+			"images/house4.jpg",
+			"images/cat.jpg",
+			"images/house3.jpg",
+			"images/house1.jpg",
+			"css/choice.css",
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/mui.min.css",
+			"images/forum1.jpg"
+		],
+		"refer": []
+	},
+	"I.html": {
+		"resources": [
+			"js/mui.min.js",
+			"css/mui.min.css"
+		],
+		"refer": []
+	},
+	"forum.html": {
+		"resources": [
+			"images/house2.jpg",
+			"images/house4.jpg",
+			"images/cat.jpg",
+			"images/house3.jpg",
+			"images/house1.jpg",
+			"images/forum1.jpg",
+			"css/choice.css",
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/mui.min.css",
+			"css/forum.css"
+		],
+		"refer": []
+	},
+	"partTime.html": {
+		"resources": [
+			"js/mui.min.js",
+			"css/mui.min.css"
+		]
+	},
+	"preach.html": {
+		"resources": [
+			"js/mui.min.js",
+			"css/mui.min.css"
+		]
+	}
+}

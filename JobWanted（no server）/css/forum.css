@@ -1,0 +1,146 @@
+#slider,
+#slider img {
+	position: absolute;
+	height: 218px;
+	width: 100%;
+}
+
+#search {
+	position: absolute;
+	z-index: 1;
+	top: 22px;
+	width: 250px;
+	left: calc((100% - 250px)/2);
+}
+
+#search input {
+	margin-bottom: 0px;
+	background-color: rgba(217, 232, 245, 1);
+	font-size: 15px;
+}
+
+#search input ::-webkit-input-placeholder {
+	color: #333333;
+}
+
+#search input :-moz-placeholder {
+	color: #333333;
+}
+
+#search input ::-moz-placeholder {
+	color: #333333;
+}
+
+#search input :-ms-input-placeholder {
+	color: #333333;
+}
+
+.mui-icon-upload {
+	position: absolute;
+	z-index: 1;
+	top: 26px;
+	color: rgb(215,32,9);
+	right: 8px;
+}
+
+#outRec {
+	position: absolute;
+	z-index: 1;
+	top: 69px;
+	left: calc((100% - 226px)/2);
+	width:226px;
+	height: 110px;
+	border: 1px solid rgb(215,172,178);	
+}
+#inRec {
+	position: absolute;
+	width: 204px;
+	height: 83px;
+	top: calc((100% - 83px)/2);
+	left: calc((100% - 204px)/2);	
+	background-color: rgba(160,190,210,0.7);
+	color: white;
+	text-align: center;  
+  	line-height:83px;   
+  	overflow:hidden; 
+}
+
+#content {
+	position: absolute;
+	width: 100%;
+	padding-left: 8px;
+	padding-right: 8px;
+	top: 215px;
+}
+
+.mui-scroll {
+	width: calc(100% - 8px - 8px);
+}
+
+.item {	
+	width: 340px;
+	height: 96px;
+	margin-top: 22px;
+	margin-left: 2px;
+	box-shadow:0 0 10px rgba(100,100,100,0.5);
+	padding: 12px 9px;
+}
+
+.head {
+	width: 100%;
+	height: 26px;
+}
+
+.head>div {
+	float: left;
+	height: 26px;
+}
+.head img {
+	width: 26px;
+	height: 26px;
+	border-radius: 13px;
+}
+
+.name {
+	margin-left: 5px;
+	height: 26px;
+	line-height: 26px;
+	font-size: 14px;
+	float: left;
+}
+
+.publish {
+	margin-top: 5px;
+	font-size: 15px;
+	text-align: left;
+}
+
+.root {
+	font-size: 14px;
+}
+
+.root  span {
+	font-size: 20px;
+}
+
+.root div:nth-child(1) span {
+	color: rgb(234,114,104);
+}
+
+.root div:nth-child(2) span {
+	color: rgb(160,195,198);
+}
+
+.root div:nth-child(3) span {
+	color: rgb(123,175,193);
+}
+
+.root div:nth-child(1) {
+	float: left;
+}
+.root div:nth-child(2),
+.root div:nth-child(3) {
+	float: right;
+}
+
+

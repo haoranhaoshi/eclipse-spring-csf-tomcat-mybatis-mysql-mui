@@ -1,0 +1,39 @@
+#items {
+	position: absolute;
+	top: 36px;
+	height: calc(100% - 36px);
+	padding-left: 9px;
+	padding-right: 9px;
+}
+
+.mui-scroll {
+	width: calc(100% - 9px - 9px);
+}
+
+.item {
+	margin-top: 19px;
+	padding: 14px 13px;
+	box-shadow: 0 0 5px #555555;
+	height: 110px;
+}
+
+.item span {
+	font-size: 14px;
+	color: red;
+}
+
+.company {
+	color: #222222;
+}
+
+.place {
+	color: #323232;
+}
+
+.post {
+	color: #555555;
+}
+
+.time {
+	color: brown;
+}
