@@ -4,6 +4,7 @@
 	height: calc(100% - 36px);
 	padding-left: 9px;
 	padding-right: 9px;
+	padding-bottom: 26px;
 }
 
 .mui-scroll {
@@ -17,8 +18,8 @@
 	height: 110px;
 }
 
-.item span {
-	font-size: 14px;
+.mui-icon-extra-regist {
+	font-size: 18px;
 	color: red;
 }
 
@@ -36,4 +37,16 @@
 
 .time {
 	color: brown;
+	float: left;
+}
+
+.collect {
+	width: 24px;
+	color: rgb(120,173,192);
+	float: right;
+}
+
+.loader-1,
+.loader-14 {
+	display: none;
 }

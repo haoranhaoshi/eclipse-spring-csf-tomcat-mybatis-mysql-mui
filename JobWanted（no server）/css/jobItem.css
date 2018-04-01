@@ -1,0 +1,35 @@
+#title {
+	position: absolute;
+	background: white;
+	height: 60px;
+	line-height: 38px;
+	width: 100%;
+	padding-top: 22px;
+	text-align: center;
+}
+
+.mui-icon-arrowleft {
+	z-index: 1;
+	position: absolute;
+	left: 8px;
+	top: 30px;
+	color: red;
+}
+
+#root {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 46px;
+	line-height: 46px;
+	text-align: center;
+}
+
+#collect {
+	width: 100%;
+	float: left;
+	background-color: white;
+	color: rgb(120,173,192);
+	border-top: 1px solid #DDDDDD;
+}

@@ -71,6 +71,9 @@
 	padding-left: 8px;
 	padding-right: 8px;
 	top: 215px;
+	height: calc(100% - 215px);
+	padding-bottom: 26px;
+	background-color: white;
 }
 
 .mui-scroll {
@@ -91,7 +94,8 @@
 	height: 26px;
 }
 
-.head>div {
+.headImg,
+.name {
 	float: left;
 	height: 26px;
 }
@@ -105,8 +109,13 @@
 	margin-left: 5px;
 	height: 26px;
 	line-height: 26px;
-	font-size: 14px;
+	font-size: 15px;
 	float: left;
+}
+
+.collect {
+	float: right;
+	color: rgb(120,173,192);
 }
 
 .publish {
@@ -119,8 +128,13 @@
 	font-size: 14px;
 }
 
-.root  span {
+.mui-icon-extra-xiaoshuo,
+.mui-icon-extra-regist {
 	font-size: 20px;
+}
+
+.mui-icon-email {
+	font-size: 22px;
 }
 
 .root div:nth-child(1) span {
@@ -142,5 +156,14 @@
 .root div:nth-child(3) {
 	float: right;
 }
+
+.loader-1,
+.loader-14 {
+	display: none;
+}
+
+
+
+
 
 

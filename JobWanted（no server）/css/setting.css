@@ -1,0 +1,13 @@
+.mui-scroll-wrapper {
+	position: absolute;
+	top: 0px;
+	height: 100%;
+}
+
+.mui-table-view {
+	margin-top: 26px;
+}
+
+.mui-pull-right {
+	color: #999;
+}

@@ -1,8 +1,10 @@
 #items {
+	position: absolute;
 	top: 36px;
 	height: calc(100% - 36px);
 	padding-left: 9px;
 	padding-right: 9px;
+	padding-bottom: 26px;
 }
 
 .mui-scroll {
@@ -11,8 +13,8 @@
 
 .itemLeft,.itemRight {
 	width: 160px;
-	height: 164px;
-	margin-top: 19px;
+	height: 182px;
+	margin-top: 14px;
 	box-shadow: 0 0 5px #555555;
 	padding: 11px 10px;	
 }
@@ -48,7 +50,18 @@
 	margin-top: 49px;
 }
 
-.itemText span {
+.mui-icon-extra-regist {
 	font-size: 14px;
 	color: red;
+}
+
+.collect {
+	width: 24px;
+	margin-left: calc((100% - 24px)/2);
+	color: rgb(120,173,192);
+}
+
+.loader-1,
+.loader-14 {
+	display: none;
 }

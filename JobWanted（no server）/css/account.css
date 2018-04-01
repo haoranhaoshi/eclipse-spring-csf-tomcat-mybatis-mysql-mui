@@ -1,0 +1,39 @@
+#title {
+	position: absolute;
+	background: white;
+	height: 60px;
+	line-height: 38px;
+	width: 100%;
+	padding-top: 22px;
+	text-align: center;
+}
+
+.mui-icon-arrowleft {
+	z-index: 1;
+	position: absolute;
+	left: 8px;
+	top: 30px;
+	color: red;
+}
+
+.mui-scroll-wrapper {
+	position: absolute;
+	top: 60px;
+	border-top: #dddddd 1px solid;
+}
+
+.mui-table-view {
+	margin-top: 26px;
+}
+
+#head-img1 {
+	position: absolute;
+	bottom: 4px;
+	right: 40px;
+	width: 36px;
+	height: 36px;
+}
+
+.mui-pull-right {
+	color: #999;
+}

@@ -1,0 +1,91 @@
+#title {
+	position: absolute;
+	background: white;
+	height: 60px;
+	line-height: 38px;
+	width: 100%;
+	padding-top: 22px;
+	text-align: center;
+}
+
+.mui-icon-arrowleft {
+	z-index: 1;
+	position: absolute;
+	left: 8px;
+	top: 30px;
+	color: red;
+}
+
+#searchOut {
+	position: absolute;
+	height: 53px;
+	width: 100%;
+	top: 60px;
+	background-color: rgb(227,227,227);
+}
+
+#searchIn {
+	position: absolute;
+	z-index: 1;
+	top: 10px;
+	width: 250px;
+	left: calc((100% - 250px)/2);
+}
+
+#searchIn input {
+	margin-bottom: 0px;
+	background-color: white;
+	font-size: 15px;
+}
+
+#searchIn input ::-webkit-input-placeholder {
+	color: #333333;
+}
+
+#searchIn input :-moz-placeholder {
+	color: #333333;
+}
+
+#searchIn input ::-moz-placeholder {
+	color: #333333;
+}
+
+#searchIn input :-ms-input-placeholder {
+	color: #333333;
+}
+
+#items {
+	position: absolute;
+	top: 113px;
+	width: 100%;
+	height: calc(100% - 101px);
+	background-color: white;
+	padding: 14px 4px;
+}
+
+.item {
+	height: 31px;	
+	box-shadow: 0 0 10px rgba(100,100,100,0.5);
+	text-align: center;
+	line-height: 31px;
+	float: left;
+	margin: 9px 4px;
+	padding:2px 14px;
+}
+
+.collection {
+	clear: left;
+	padding-top: 10px;
+}
+
+.itemTitle {
+	font-size: 18px;
+	color: #555555;
+	padding-left: 4px;
+	width: 100%;
+}
+
+.itemContent {
+	padding-bottom: 8px;
+	width: 100%;
+}

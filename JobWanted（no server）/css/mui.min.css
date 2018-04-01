@@ -3304,7 +3304,8 @@ select:focus {
 .mui-popup-title {
 	font-size: 18px;
 	font-weight: 500;
-	text-align: center
+	text-align: center;
+	color: rgb(120,173,192);
 }
 
 .mui-popup-title+.mui-popup-text {
@@ -3889,8 +3890,8 @@ body>.mui-progressbar {
 }
 
 .mui-switch.mui-active {
-	border-color: #4cd964;
-	background-color: #4cd964
+	border-color: rgb(120, 173, 192);
+	background-color: rgb(120, 173, 192)
 }
 
 .mui-switch.mui-active .mui-switch-handle {
@@ -4072,7 +4073,7 @@ body>.mui-progressbar {
 	line-height: 17px;
 	position: fixed;
 	z-index: 9999;
-	bottom: 50px;
+	bottom: 50%;
 	left: 50%;
 	-webkit-transition: opacity 0.3s;
 	transition: opacity 0.3s;

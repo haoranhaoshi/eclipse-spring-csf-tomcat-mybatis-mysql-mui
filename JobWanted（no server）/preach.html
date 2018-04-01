@@ -9,8 +9,9 @@
 		<meta name="apple-mobile-web-app-status-bar-style" content="black">
 		<link rel="stylesheet" href="css/mui.min.css">
 		<link rel="stylesheet" type="text/css" href="css/head.css" />
+		<link rel="stylesheet" type="text/css" href="css/icons-extra.css" />		
+		<link rel="stylesheet" type="text/css" href="css/loading.css" />
 		<link rel="stylesheet" type="text/css" href="css/preach.css" />
-		<link rel="stylesheet" type="text/css" href="css/icons-extra.css" />
 	</head>
 
 	<body>
@@ -18,11 +19,11 @@
 		<div id="search" class="mui-input-row mui-search">
 			<input type="search" class="mui-input-clear" placeholder="搜索你想要的">
 		</div>
-		<a><span class="mui-icon mui-icon-location"></span></a>
+		<a id="city"><span class="mui-icon mui-icon-location"></span></a>
 		<div id="content">
 			<div id="choices">
-				<div id="industry">
-					全部行业
+				<div id="school">
+					全部高校
 					<a><span class="mui-icon mui-icon-arrowdown"></span></a>
 				</div>
 				<div id="company">
@@ -36,6 +37,10 @@
 			</div>
 			<div id="items" class="mui-scroll-wrapper">
 				<div class="mui-scroll">
+					<div class="loader loader-1">
+						<div class="loader-outter"></div>
+						<div class="loader-inner"></div>
+					</div>
 					<div class="itemLeft">
 						<div>
 							<img src="images/school1.jpg" />
@@ -45,6 +50,9 @@
 							<font class="title">宾夕法尼亚大学人才交流大厅，高校应届生猎聘会</font><br>
 							<span class="mui-icon-extra mui-icon-extra-regist"></span>
 							<font class="time">2018-02-16 15:00-17:00</font>
+						</div>
+						<div class="collect">
+							<span class="mui-icon-extra mui-icon-extra-heart"></span>
 						</div>
 					</div>
 					<div class="itemRight">
@@ -57,27 +65,8 @@
 							<span class="mui-icon-extra mui-icon-extra-regist"></span>
 							<font class="time">2018-02-16 15:00-17:00</font>
 						</div>
-					</div>
-					<div class="itemLeft">
-						<div>
-							<img src="images/school1.jpg" />
-						</div>
-						<div class="itemText">
-							<font class="place">2018 StarUp Fair(美国)</font><br>
-							<font class="title">宾夕法尼亚大学人才交流大厅，高校应届生猎聘会</font><br>
-							<span class="mui-icon-extra mui-icon-extra-regist"></span>
-							<font class="time">2018-02-16 15:00-17:00</font>
-						</div>
-					</div>
-					<div class="itemRight">
-						<div>
-							<img src="images/school1.jpg" />
-						</div>
-						<div class="itemText">
-							<font class="place">2018 StarUp Fair(美国)</font><br>
-							<font class="title">宾夕法尼亚大学人才交流大厅，高校应届生猎聘会</font><br>
-							<span class="mui-icon-extra mui-icon-extra-regist"></span>
-							<font class="time">2018-02-16 15:00-17:00</font>
+						<div class="collect">
+							<span class="mui-icon-extra mui-icon-extra-heart"></span>
 						</div>
 					</div>
 					<div class="itemLeft">
@@ -90,6 +79,9 @@
 							<span class="mui-icon-extra mui-icon-extra-regist"></span>
 							<font class="time">2018-02-16 15:00-17:00</font>
 						</div>
+						<div class="collect">
+							<span class="mui-icon-extra mui-icon-extra-heart"></span>
+						</div>
 					</div>
 					<div class="itemRight">
 						<div>
@@ -101,12 +93,66 @@
 							<span class="mui-icon-extra mui-icon-extra-regist"></span>
 							<font class="time">2018-02-16 15:00-17:00</font>
 						</div>
+						<div class="collect">
+							<span class="mui-icon-extra mui-icon-extra-heart"></span>
+						</div>
+					</div>
+					<div class="itemLeft">
+						<div>
+							<img src="images/school1.jpg" />
+						</div>
+						<div class="itemText">
+							<font class="place">2018 StarUp Fair(美国)</font><br>
+							<font class="title">宾夕法尼亚大学人才交流大厅，高校应届生猎聘会</font><br>
+							<span class="mui-icon-extra mui-icon-extra-regist"></span>
+							<font class="time">2018-02-16 15:00-17:00</font>
+						</div>
+						<div class="collect">
+							<span class="mui-icon-extra mui-icon-extra-heart"></span>
+						</div>
+					</div>
+					<div class="itemRight">
+						<div>
+							<img src="images/school1.jpg" />
+						</div>
+						<div class="itemText">
+							<font class="place">2018 StarUp Fair(美国)</font><br>
+							<font class="title">宾夕法尼亚大学人才交流大厅，高校应届生猎聘会</font><br>
+							<span class="mui-icon-extra mui-icon-extra-regist"></span>
+							<font class="time">2018-02-16 15:00-17:00</font>
+						</div>
+						<div class="collect">
+							<span class="mui-icon-extra mui-icon-extra-heart"></span>
+						</div>
+					</div>
+					<div class="itemLeft">
+						<div>
+							<img src="images/school1.jpg" />
+						</div>
+						<div class="itemText">
+							<font class="place">2018 StarUp Fair(美国)</font><br>
+							<font class="title">宾夕法尼亚大学人才交流大厅，高校应届生猎聘会</font><br>
+							<span class="mui-icon-extra mui-icon-extra-regist"></span>
+							<font class="time">2018-02-16 15:00-17:00</font>
+						</div>
+						<div class="collect">
+							<span class="mui-icon-extra mui-icon-extra-heart"></span>
+						</div>
+					</div>
+					<div class="loader loader-14">
+						<svg class="loader-star star-small" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="23.172px" height="23.346px" viewBox="0 0 23.172 23.346" xml:space="preserve">
+							<polygon fill="rgb(120, 173, 192)" points="11.586,0 8.864,8.9 0,8.9 7.193,14.447 4.471,23.346 11.586,17.84 18.739,23.346 16.77,14.985 23.172,8.9 14.306,8.9  "></polygon>
+						</svg>
+						<svg class="loader-star star-big" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="23.172px" height="23.346px" viewBox="0 0 23.172 23.346" xml:space="preserve">
+							<polygon fill="rgb(160,195,198)"></polygon>
+						</svg>
 					</div>
 				</div>
 			</div>
 		</div>
 		<script src="js/mui.min.js"></script>
 		<script src="js/scroll.js"></script>
+		<script src="js/preach.js"></script>
 	</body>
 
 </html>
